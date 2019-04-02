@@ -4,7 +4,7 @@ def key_for_min_value(hash)
   low_value = 10000
   low_name = "Ted"
   if hash = {}
-    return nil
+    nil
   hash.each do |key, value|
     elsif value < low_value
       low_value = value
@@ -12,5 +12,4 @@ def key_for_min_value(hash)
     end
     return low_name
   end
-end
 end
